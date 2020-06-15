@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+
 // THE NAMES MUST (!) BE IDENTICAL TO THE ONES IN THE DB (MONGO) 
 // DOESN'T HAVE TO COVER THE FULL DOCUMENT, BUT VARIABLE MUST HAVE IDENTICAL NAMES
 const categorySchema = mongoose.Schema({
